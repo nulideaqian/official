@@ -1,0 +1,14 @@
+servicecomb:
+  service:
+    application: bmi
+    name: demo-cse-consumer
+    version: 0.0.6
+
+    registry:
+      address: http://127.0.0.1:30100
+  rest:
+    address: 0.0.0.0:7778
+
+
+server:
+  port: 7778
